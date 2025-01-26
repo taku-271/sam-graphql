@@ -4,7 +4,7 @@ FROM oven/bun:debian AS dev
 
 WORKDIR ${PWD}
 
-RUN apt-get update && apt-get install -y docker.io wget unzip curl
+RUN apt-get update && apt-get install -y docker.io wget unzip curl gpg
 
 # samのインストール
 # RUN wget https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-arm64.zip
