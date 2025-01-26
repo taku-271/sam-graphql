@@ -1,0 +1,20 @@
+{
+  "name": "Sam Graphql",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "${localWorkspaceFolder}",
+  "postCreateCommand": "bun install",
+  "remoteUser": "bun",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "github.copilot",
+        "GitHub.vscode-pull-request-github",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
