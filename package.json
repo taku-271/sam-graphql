@@ -2,6 +2,12 @@
   "name": "sam-graphql",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev:graphql": "bun run --hot --filter graphql dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
